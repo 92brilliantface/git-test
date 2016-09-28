@@ -2,6 +2,7 @@
 import glob
 import os
 
+## 변경
 files = glob.glob("E:/task/new/*") #특정확장자를 가진 목록뽑기
 for x in files:
     if not os.path.isdir(x): 
